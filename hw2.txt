@@ -1,0 +1,15 @@
+1. 282
+2. d8:96:95:01:a5:c9
+3. session=inxE3QsNHa\r\n
+4. net.educause.edu www.map.wisc.edu
+5. iamauser billiard
+7. cs155@dummymail.com
+8. whitehat
+9. 5
+11. tcpdump -n src host 131.253.40.84 -r trace1.pcap
+12. tcpdump -n port 80 -r trace1.pcap
+13. tcpdump -n arp -r trace1.pcap
+14. tcpdump -n port 443 and dst 74.125.225.81 -r trace1.pcap
+15. 
+
+
