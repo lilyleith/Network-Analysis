@@ -10,6 +10,8 @@
 12. tcpdump -n port 80 -r trace1.pcap
 13. tcpdump -n arp -r trace1.pcap
 14. tcpdump -n port 443 and dst 74.125.225.81 -r trace1.pcap
-15. 
+15. 443, 22, 80, 53
+16. sudo nmap -sU -p- --open -v scanme.insecure.org
+17. Linux
 
 
